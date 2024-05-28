@@ -1,0 +1,23 @@
+.hero {
+  background: url('./image/camera.jpg') no-repeat center center;
+  background-size: cover;
+  height: 100vh;
+  color: white;
+}
+
+.hero-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.full-screen {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+}
+
+html {
+  scroll-behavior: smooth;
+}
